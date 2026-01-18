@@ -136,6 +136,27 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "Prestige Realty Website",
+      description:
+        "A conversion-optimized multi-page real estate website designed to attract serious buyers and sellers. Features high-quality property listings, strategic call-to-action placements, and trust-building elements that turn visitors into qualified leads.",
+      businessValue:
+        "More property inquiries • Stronger brand authority • Seamless mobile browsing for house hunters",
+      tech: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "Framer Motion",
+        "Git",
+        "GitHub",
+        "Vercel",
+      ],
+      liveUrl: "https://prestige-realty-two.vercel.app/",
+      screenshot: "./assets/prestige.png",
+    },
+    {
       title: "Top Cleaning Website",
       description:
         "A conversion-optimized multi-page website that drives customer bookings and builds trust. Features strategic call-to-action placements, service showcases, and transparent pricing that convert visitors into clients.",
@@ -143,7 +164,7 @@ export default function Portfolio() {
         "Increases online bookings • Builds brand credibility • Mobile-optimized for on-the-go customers",
       tech: ["WordPress", "HTML", "CSS", "JavaScript"],
       liveUrl: "https://tc-janitorial.com",
-      screenshot: "/src/assets/top.png",
+      screenshot: "./assets/top.png",
     },
     {
       title: "Secure Calculator App",
@@ -153,7 +174,7 @@ export default function Portfolio() {
         "Secure user authentication • Real-time calculations • Cloud database integration",
       tech: ["React", "Vite", "CSS", "Firebase"],
       liveUrl: "https://calculator-delta-khaki.vercel.app/",
-      screenshot: "/src/assets/calc.png",
+      screenshot: "./assets/calc.png",
     },
     {
       title: "SaaS Features Page",
@@ -163,7 +184,7 @@ export default function Portfolio() {
         "Increases conversion rates • Fast loading speeds • Engaging user experience",
       tech: ["React", "Tailwind CSS", "Vite"],
       liveUrl: "https://mixlr-features-page.vercel.app/",
-      screenshot: "/src/assets/mixlr.png",
+      screenshot: "./assets/mixlr.png",
     },
   ];
 
@@ -380,7 +401,7 @@ export default function Portfolio() {
                   </div>
                   <div className="aspect-square bg-gray-900 rounded flex items-center justify-center border border-green-500/50 overflow-hidden">
                     <img
-                      src="/src/assets/pic6.jpg"
+                      src="/assets/pic6.jpg"
                       alt="Fouad Kamildeen-Aransi"
                       className="w-full h-full object-cover"
                     />
