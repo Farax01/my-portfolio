@@ -157,6 +157,25 @@ export default function Portfolio() {
       screenshot: "./assets/prestige.png",
     },
     {
+      title: "Elite Cuts Barbershop Website",
+      description:
+        "A premium multi-page barbershop website designed to attract clients and streamline bookings. Features service showcase, master barber profiles, before & after gallery, client testimonials, and an integrated booking system that converts visitors into appointments.",
+      businessValue:
+        "Increased online bookings • Professional brand presence • 24/7 booking availability • Client testimonials build trust",
+      tech: [
+        "React",
+        "React Router",
+        "Tailwind CSS",
+        "Vite",
+        "Lucide Icons",
+        "Git",
+        "GitHub",
+        "Vercel",
+      ],
+      liveUrl: "https://elite-cuts-seven.vercel.app/",
+      screenshot: "./assets/cuts.png",
+    },
+    {
       title: "Top Cleaning Website",
       description:
         "A conversion-optimized multi-page website that drives customer bookings and builds trust. Features strategic call-to-action placements, service showcases, and transparent pricing that convert visitors into clients.",
@@ -165,6 +184,16 @@ export default function Portfolio() {
       tech: ["WordPress", "HTML", "CSS", "JavaScript"],
       liveUrl: "https://tc-janitorial.com",
       screenshot: "./assets/top.png",
+    },
+    {
+      title: "PumpMindVirus (ongoing)",
+      description:
+        "A web platform built for the PumpMindVirus (PMV) memecoin ecosystem. Demonstrates the ability to develop secure, interactive crypto-related interfaces with real-time data handling and wallet-aware user flows.",
+      businessValue:
+        "Community engagement hub • Real-time token interactions • Secure user experience",
+      tech: ["React", "Vite", "CSS", "Wordpress", "Hostinger"],
+      liveUrl: "https://pmvmeme.com",
+      screenshot: "./assets/pmv.png",
     },
     {
       title: "Secure Calculator App",
